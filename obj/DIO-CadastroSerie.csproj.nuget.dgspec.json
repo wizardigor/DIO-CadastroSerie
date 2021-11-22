@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\xampp\\htdocs\\DIO-CadastroSerie\\DIO-CadastroSerie.csproj": {}
+  },
+  "projects": {
+    "C:\\xampp\\htdocs\\DIO-CadastroSerie\\DIO-CadastroSerie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xampp\\htdocs\\DIO-CadastroSerie\\DIO-CadastroSerie.csproj",
+        "projectName": "DIO-CadastroSerie",
+        "projectPath": "C:\\xampp\\htdocs\\DIO-CadastroSerie\\DIO-CadastroSerie.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\DIO-CadastroSerie\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

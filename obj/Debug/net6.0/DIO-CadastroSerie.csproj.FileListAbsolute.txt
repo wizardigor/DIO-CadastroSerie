@@ -1,0 +1,15 @@
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\DIO-CadastroSerie.exe
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\DIO-CadastroSerie.deps.json
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\DIO-CadastroSerie.runtimeconfig.json
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\DIO-CadastroSerie.dll
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\ref\DIO-CadastroSerie.dll
+C:\xampp\htdocs\DIO-CadastroSerie\bin\Debug\net6.0\DIO-CadastroSerie.pdb
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.csproj.AssemblyReference.cache
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.AssemblyInfoInputs.cache
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.AssemblyInfo.cs
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.dll
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\ref\DIO-CadastroSerie.dll
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.pdb
+C:\xampp\htdocs\DIO-CadastroSerie\obj\Debug\net6.0\DIO-CadastroSerie.genruntimeconfig.cache
