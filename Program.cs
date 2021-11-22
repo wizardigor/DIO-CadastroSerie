@@ -45,7 +45,7 @@ namespace DIO_CadastroSerie
 
         private static void ExcluirSerie()
 		{
-			Console.Write("Digite o id da série: ");
+			Console.Write("Informe o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
 
 			repositorio.Exclui(indiceSerie);
@@ -53,7 +53,7 @@ namespace DIO_CadastroSerie
 
         private static void VisualizarSerie()
 		{
-			Console.Write("Digite o id da série: ");
+			Console.Write("Informe o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
 
 			var serie = repositorio.RetornaPorId(indiceSerie);
@@ -63,7 +63,7 @@ namespace DIO_CadastroSerie
 
         private static void AtualizarSerie()
 		{
-			Console.Write("Digite o id da série: ");
+			Console.Write("Informe o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
 
 			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
@@ -72,16 +72,16 @@ namespace DIO_CadastroSerie
 			{
 				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
 			}
-			Console.Write("Digite o gênero entre as opções acima: ");
+			Console.Write("Informe o gênero entre as opções acima: ");
 			int entradaGenero = int.Parse(Console.ReadLine());
 
-			Console.Write("Digite o Título da Série: ");
+			Console.Write("Informe o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
 
-			Console.Write("Digite o Ano de Início da Série: ");
+			Console.Write("Informe o Ano de Início da Série: ");
 			int entradaAno = int.Parse(Console.ReadLine());
 
-			Console.Write("Digite a Descrição da Série: ");
+			Console.Write("Informe a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
 			Serie atualizaSerie = new Serie(id: indiceSerie,
@@ -108,13 +108,13 @@ namespace DIO_CadastroSerie
 			{
                 var excluido = serie.retornaExcluido();
                 
-				Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído*" : ""));
+				Console.WriteLine("#Série com ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído*" : ""));
 			}
 		}
 
         private static void InserirSerie()
 		{
-			Console.WriteLine("Inserir nova série");
+			Console.WriteLine("Adicionar nova série");
 
 			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
 			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
@@ -122,16 +122,16 @@ namespace DIO_CadastroSerie
 			{
 				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
 			}
-			Console.Write("Digite o gênero entre as opções acima: ");
+			Console.Write("Informe o gênero entre as opções acima: ");
 			int entradaGenero = int.Parse(Console.ReadLine());
 
-			Console.Write("Digite o Título da Série: ");
+			Console.Write("Informe o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
 
-			Console.Write("Digite o Ano de Início da Série: ");
+			Console.Write("Informe o Ano de Início da Série: ");
 			int entradaAno = int.Parse(Console.ReadLine());
 
-			Console.Write("Digite a Descrição da Série: ");
+			Console.Write("Informe a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
 			Serie novaSerie = new Serie(id: repositorio.ProximoId(),
@@ -150,7 +150,7 @@ namespace DIO_CadastroSerie
 			Console.WriteLine("Informe a opção desejada:");
 
 			Console.WriteLine("1- Listar séries");
-			Console.WriteLine("2- Inserir nova série");
+			Console.WriteLine("2- Adicionar nova série");
 			Console.WriteLine("3- Atualizar série");
 			Console.WriteLine("4- Excluir série");
 			Console.WriteLine("5- Visualizar série");
